@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .card {
+            margin: 10px;
+            /* Add 10px margin to each card */
+        }
+        
+        .card-body {
+            padding: 10px;
+            /* Add 10px padding inside the card body */
+        }
+    </style>
+</head>
+
+<body style="margin: 20px">
+    <div class="row">
+        <div class="col-sm-6 bg-primary p-3 text-center text-white fst-italic">
+            Flipkart
+        </div>
+        <div class="col-sm-6 bg-light p-3 text-center">
+            Welcome SAKTHISRI for the wonderful shopping experience
+        </div>
+    </div>
+    <br />
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search for items" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <br />
+    <h1 style="text-align: center;font-weight: bold;">PRODUCTS</h1><br>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="mobile-phones.png" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Mobiles</h4>
+                    <p class="card-text">
+                        "Latest smartphones with cutting-edge technology at your fingertips."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymob">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="mymob" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Mobiles</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: iPhone, Samsung Galaxy, OnePlus, Google Pixel, Xiaomi Redmi, Motorola, Oppo, Vivo, Realme, Nokia.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="appliances.jpg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Appliances</h4>
+                    <p class="card-text">
+                        "Efficient home appliances to simplify your daily life."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appliance">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="appliance" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Appliances</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Microwave, toaster, blender, refrigerator, washing machine, dishwasher, air purifier, coffee maker, vacuum cleaner, iron.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="beauty.jpg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Beauty</h4>
+                    <p class="card-text">
+                        "Premium beauty essentials for radiant, glowing skin."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#beauty">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="beauty" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Beauty</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Moisturizer, foundation, mascara, lip balm, face serum, nail polish, sunscreen, eyeshadow palette, hair oil, face mask
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="foos.jpeg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Food</h4>
+                    <p class="card-text">
+                        "Delicious and nutritious options for every craving and occasion."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#food">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="food" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Food</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Pasta, rice, olive oil, canned beans, granola bars, cookies, peanut butter, cereals, tea, coffee.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="fur.jpg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Furniture</h4>
+                    <p class="card-text">
+                        "Stylish and comfortable furniture to transform your living space."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#furniture">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="furniture" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Furniture</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Sofa, coffee table, dining table, bed, wardrobe, bookshelf, recliner, office chair, TV stand, side table.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="gadgets.jpeg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Gadgets</h4>
+                    <p class="card-text">
+                        "Innovative gadgets that make life smarter and more connected."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gadgets">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="gadgets" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Gadgets</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Smartphone, laptop, tablet, smartwatch, wireless earbuds, gaming console, digital camera, e-reader, fitness tracker, VR headset.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="western.jpg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Western wear</h4>
+                    <p class="card-text">
+                        "Chic and contemporary outfits to elevate your wardrobe."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#wear">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="wear" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Western wear</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Maxi dresses, denim jackets, blazers, crop tops, palazzo pants, trench coats, jumpsuits, pencil skirts, ripped jeans, leather pants.
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="fashion.jpeg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Fashion</h4>
+                    <p class="card-text">
+                        "Trendsetting styles that define your unique look."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fashion">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="fashion" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Fashion</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: T-shirts, jeans, dresses, jackets, sneakers, sunglasses, watches, belts, scarves, boots.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 400px">
+                <img class="card-img-top" src="Ethnic_Wear.jpg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Ethnic wear</h4>
+                    <p class="card-text">
+                        "Elegant traditional attire celebrating cultural heritage and style."
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ethnic">
+              View Product
+            </button>
+                </div>
+            </div>
+            <div id="ethnic" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ethnic wear</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Items: Sarees, kurtas, lehengas, anarkali suits, sherwanis, dhotis, palazzos, dupattas, churidar, angarkha.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br>
+    <center>
+        <button type="button" class="btn btn-success " data-toggle="modal" data-target="#gadgets">
+        Visit the website
+      </button>
+        <br><br>
+    </center>
+    <p style="background-color: black;color:white;text-align: center;padding:20px">Enjoy the every moment of Life with great shopping and quality products</p>
+</body>
+
+</html>
